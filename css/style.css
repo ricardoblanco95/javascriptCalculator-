@@ -1,0 +1,86 @@
+body{
+  background-color: rgb(35,35,35);
+  background-size: 20px 20px;
+  background-image: linear-gradient(to right, rgb(125,125,125) 1px, transparent 1px), linear-gradient(to bottom, rgb(125,125,125)  1px, transparent 1px);
+ }
+
+h1{
+  font-family: Audiowide, Monospace;
+  text-align: center;
+  color:white;
+  user-select: none;
+}
+
+.cont{
+  overflow: hidden;
+  background: linear-gradient(to bottom, rgb(70,70,70) , black); 
+  border: 4px solid rgb(30,35,36);
+  border-radius: 3px;
+  width: 550px;
+  height: 450px;
+  display: block;
+  margin: 10% auto 0px auto; 
+}
+
+.cont-box{
+  border: 1px solid black;
+  width: 95%;
+  margin:0px auto 10px auto; 
+}  
+
+#numBox, #opBox{
+  font-family: Audiowide, Monospace;
+  font-size: 200%;
+  color: rgb(25,25,25);
+  text-align: right;
+  background: rgb(0,106,0);
+  width: 100%;
+  margin:0px auto 0px auto; 
+  user-select: none;
+}
+
+#opBox{
+  font-size: 150%;
+}
+
+.btn{
+  font-family: Audiowide, Monospace;
+  background: linear-gradient(to bottom, rgb(231,198,14), rgb(187,94,0));
+  color: black;
+  display: block;
+  margin: auto;
+  width: 50%;
+  font-size: 150%;
+  }
+
+#onOff, #numAndOp{
+  padding-bottom: 2%;
+}
+
+.btnDel{
+  background: linear-gradient(to bottom, rgb(196,58,0) , red);
+  color: white;
+  width: 60%;
+}
+
+.btnPlus, .btnMinus, .btnMult, .btnDiv{
+  background: linear-gradient(to bottom, white , rgb(96,96,96));
+  color: black;
+}
+
+h4{
+  font-family: Verdana;
+  font-size: 25px;
+  font-weight: Bold;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  user-select: none;
+ }
+
+#link{
+  color: rgb(245,192,10);
+  text-decoration: none;
+}
+
+}
